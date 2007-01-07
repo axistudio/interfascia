@@ -22,11 +22,12 @@
 
 
 package interfascia;
-
+import processing.core.*;
 
 import java.awt.event.*;
 
 public class IFProgressBar extends GUIComponent {
+	private int bgColor, progressColor, borderColor;
 	private float progress = 0;
 	
 	public IFProgressBar (int newX, int newY, int newWidth) {

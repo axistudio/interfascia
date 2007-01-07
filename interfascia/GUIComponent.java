@@ -22,7 +22,7 @@
 
 
 package interfascia;
-
+import processing.core.*;
 import java.awt.event.*;
 import java.lang.reflect.*;
 
@@ -71,10 +71,6 @@ abstract class GUIComponent {
 	
 	public void setLookAndFeel(IFLookAndFeel lf) {
 		lookAndFeel = lf;
-	}
-	
-	public IFLookAndFeel getLookAndFeel() {
-		return lookAndFeel;
 	}
 	
 	public String getLabel() {

@@ -22,8 +22,9 @@
 
 
 package interfascia;
+import processing.core.*;
 
-//import java.lang.reflect.*;
+import java.lang.reflect.*;
 
 public class IFRadioController extends GUIComponent {
 	private IFRadioButton[] contents;

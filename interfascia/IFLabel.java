@@ -22,10 +22,10 @@
 
 
 package interfascia;
-
+import processing.core.*;
 
 public class IFLabel extends GUIComponent {
-	private int textSize = 13;
+	private int textColor, textSize = 13;
 
 	public IFLabel (String argLabel, int argX, int argY) {
 		this (argLabel, argX, argY, 13);
